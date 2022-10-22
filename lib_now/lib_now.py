@@ -1,6 +1,9 @@
-def multiply_int(a: int, b: int) -> int:
-    return a * b
+__version__ = "dev"
 
 
-def add_int(a: int, b: int) -> int:
-    return a + b
+def multiply_int(a: int, b: int) -> None:
+    print(f"The result of {a} * {b} = {a * b}")
+
+
+def add_int(a: int, b: int) -> None:
+    print(f"The result of {a} + {b} = {a + b}")
