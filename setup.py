@@ -1,13 +1,6 @@
-from setuptools import setup, find_packages
+#!/usr/bin/env python
 
-from lib_now import __version__
+from setuptools import setup
 
-setup(
-    name='lib_now',
-    version=__version__,
-
-    url='https://github.com/baender/test_python_ibs',
-    author='Baender',
-
-    packages=find_packages(),
-)
+if __name__ == "__main__":
+    setup()
